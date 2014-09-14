@@ -1,1 +1,1 @@
-alert('asdasd');
+// alert('Welcome to Task Galaxy!');

@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sinatra/reloader'
 require 'sinatra/activerecord'
 
 configure do
@@ -10,6 +11,6 @@ Dir[File.join(File.dirname(__FILE__), 'app', '**', '*.rb')].each do |file|
 end
 
 get '/' do
-  @title = "Hello World"
+  @title = "Task Galaxy"
   erb :index
 end
